@@ -1,5 +1,5 @@
 function languageDetailByCode(code) {
-    [
+    let codeAndNameList = [
         { code: 'aa', name: 'Afar', dir: 1, native: 'Afar' },
         { code: 'ab', name: 'Abkhazian', dir: 1, native: 'Аҧсуа' },
         { code: 'af', name: 'Afrikaans', dir: 1, native: 'Afrikaans' },
@@ -203,7 +203,6 @@ function languageDetailByCode(code) {
 
     let result = null;
     for (let element of codeAndNameList) {
-        i++;
         if (element.code == code) {
             result = element;
             break;
@@ -212,4 +211,4 @@ function languageDetailByCode(code) {
     return result;
 }
 
-module.exports.languageDetailByCode = languageDetailByCode;
+module.exports = languageDetailByCode;

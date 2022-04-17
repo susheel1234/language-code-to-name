@@ -8,6 +8,6 @@ Get Language name and native from language code
 
 Then...
 
-import { languageDetailByCode } from 'languageDetailByCode';
+let languageDetailByCode = require('language-native-by-code')
 
 let languageDetail = await languageDetailByCode('hi);
