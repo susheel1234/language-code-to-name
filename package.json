@@ -1,22 +1,22 @@
 {
-  "name": "language-native-by-code",
-  "version": "1.0.0",
-  "description": "Get language names and native by language code",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/susheel1234/language-detail-by-code.git"
-  },
-  "keywords": [
-    "langauge-code"
-  ],
-  "author": "Susheel Yadav",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/susheel1234/language-detail-by-code/issues"
-  },
-  "homepage": "https://github.com/susheel1234/language-detail-by-code#readme"
+    "name": "language-native-by-code",
+    "version": "1.1.1",
+    "description": "Get language names and native by language code",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/susheel1234/language-detail-by-code.git"
+    },
+    "keywords": [
+        "langauge-code"
+    ],
+    "author": "Susheel Yadav",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/susheel1234/language-detail-by-code/issues"
+    },
+    "homepage": "https://github.com/susheel1234/language-detail-by-code#readme"
 }

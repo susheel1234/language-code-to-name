@@ -10,4 +10,6 @@ Then...
 
 let languageDetailByCode = require('language-native-by-code')
 
-let languageDetail = await languageDetailByCode('hi);
+let languageDetail = languageDetailByCode('hi');
+
+`{ code: 'en', name: 'English', dir: 1, native: 'English' }`
